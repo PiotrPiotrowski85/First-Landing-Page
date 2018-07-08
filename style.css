@@ -3,6 +3,7 @@
 =======
 @import url("https://fonts.googleapis.com/css?family=Coda");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Marvel");
 * {
   box-sizing: border-box; }
 
@@ -65,7 +66,7 @@
   font-family: "Coda", cursive;
   width: 100%;
   height: 70vh; }
-  .hero .nav {
+  .hero .hero_nav {
     height: 20vh; }
   .hero .hero_content {
     display: flex;
@@ -107,7 +108,7 @@
   .hero h3 {
     color: #FFF;
     font-family: "Kaushan Script", cursive;
-    font-size: 40px;
+    font-size: 45px;
     margin: 20px;
     text-shadow: 1px 1px 1px #f1c40f; }
   .hero .hero_btn {
@@ -115,11 +116,68 @@
     font-size: 20px;
     color: #FFF;
     background-color: #f1c40f;
-    border-radius: 15%;
-    padding: 5px 15px;
-    transition: transform .4s; }
+    border: 2px solid #f1c40f;
+    border-radius: 5%;
+    padding: 5px 15px; }
     .hero .hero_btn:hover {
+<<<<<<< HEAD
       transform: scale(1.2); }
+>>>>>>> WorkingBranch
+=======
+      color: #f1c40f;
+      background-color: #FFF; }
+
+.header {
+  margin: 80px;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px; }
+  .header .reasons {
+    margin-top: 80px; }
+  .header h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 35px; }
+  .header i.fa {
+    font-size: 60px;
+    color: #f1c40f;
+    border: 4px solid #f1c40f;
+    padding: 15px;
+    border-radius: 50%; }
+  .header p {
+    padding: 0 30px; }
+
+.main h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 35px; }
+.main h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 28px;
+  margin: 5px; }
+.main p {
+  font-family: "Marvel", sans-serif;
+  color: #313332;
+  font-size: 20px;
+  margin: 5px; }
+.main .gallery {
+  margin: 50px 0; }
+.main .gallery_row {
+  margin: 40px 0; }
+
+.story {
+  margin-top: 100px; }
+  .story h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 35px; }
+  .story .story_box {
+    margin-left: auto;
+    margin-right: auto; }
+  .story .story_row {
+    margin: 40px 0;
+    text-align: center; }
+  .story .activity {
+    border-radius: 50%;
+    float: right; }
+  .story .story_text {
+    float: right; }
 >>>>>>> WorkingBranch
 
 /*# sourceMappingURL=style.css.map */

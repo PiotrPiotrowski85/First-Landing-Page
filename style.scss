@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
 
 $nav_font: 'Coda', cursive;
 $hero_header_font:'Kaushan Script', cursive;
+$text_font: 'Marvel', sans-serif;
 $black-color: #000;
 $white-color: #FFF;
 $social-color: #31423a;
@@ -49,7 +51,7 @@ $hover-color: #f1c40f;
     font-family: $nav_font;
     width: 100%;
     height: 70vh;
-    .nav {
+    .hero_nav {
         height: 20vh;
     }
     .hero_content {
@@ -102,7 +104,7 @@ $hover-color: #f1c40f;
     h3 {
         color: $white-color;
         font-family: $hero_header_font;
-        font-size: 40px;
+        font-size: 45px;
         margin: 20px;
         text-shadow: 1px 1px 1px $hover-color;
     }
@@ -111,11 +113,79 @@ $hover-color: #f1c40f;
         font-size: 20px;
         color: $white-color;
         background-color: $hover-color;
-        border-radius: 15%;
+        border: 2px solid $hover-color;
+        border-radius: 5%;
         padding: 5px 15px;
-        transition: transform .4s;
         &:hover {
-            transform: scale(1.2);
+            color: $hover-color;
+            background-color: $white-color;
         }
+    }
+}
+.header {
+    margin: 80px;
+    font-family: $text_font; 
+    font-size: 20px;
+    .reasons {
+        margin-top: 80px;
+    }
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 35px;
+    }
+    i.fa {
+        font-size: 60px;
+        color: $hover-color;
+        border: 4px solid $hover-color;
+        padding: 15px;
+        border-radius: 50%;
+    }
+    p {
+        padding: 0 30px;
+    }
+}
+.main {
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 35px;
+    }
+    h2 {
+        font-family: $hero_header_font;
+        font-size: 28px;
+        margin: 5px;
+    }
+    p {
+        font-family: $text_font;
+        color: $text-color;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .gallery {
+        margin: 50px 0;
+    }
+    .gallery_row {
+        margin: 40px 0;
+    }
+}
+.story {
+    margin-top: 100px;
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 35px; 
+    }
+    .story_box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .story_row {
+        margin: 40px 0;
+        text-align: center;
+    }
+    .activity {
+        border-radius: 50%;
+        float: right;
+    }
+    .story_text {
+        float: right;
     }
 }
