@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 	<head>
-		<link rel="stylesheet" type"text/css" href="style.css">
+        <link rel="stylesheet" type"text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<meta charset="UTF-8">
 		<meta name="description" content="FLP">
         <meta name="author" content="Piotr Piotrowski">
@@ -10,18 +11,22 @@
 	</head>
 	<body>
         <div class="hero">
-            <div class="container hero_content">
-                <h4>Trekker</h4>
+            <div class="container nav">
+                <a class="trekker" href="#">Trekker</a>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Where</a></li>
                     <li><a href="#">When</a></li>
                     <li><a href="#">Why</a></li>
                 </ul>
-                <h3>Mountains are wonderful</h3>
-                <h1>Discover the most beautiful part of the Earth</h1>
-                <button class="hero_btn">Let's Go</button>
             </div>
+            <div class="container hero_content">
+                <div class="hero_text">
+                    <p>Mountains are wonderful...</p>
+                    <h3>Discover the most beautiful part of the Earth</h3>
+                    <button class="hero_btn">Let's Go</button>
+                </div>
+            </div>    
         </div>
         <div class="header">
             <div class="container">
@@ -51,29 +56,29 @@
                 <div class="gallery">
                     <div class="row">
                         <div class="gallery_box col-4">
-                            <img src="images/alp.jpg">
+                            <img src="images/alp.jpg" height="300" width="300">
                             <h2>Alps</h2>
                         </div>
                         <div class="gallery_box col-4">
-                            <img src="images/him.jpg">
+                            <img src="images/him.jpg" height="300" width="300">
                             <h2>Himalayas</h2>
                         </div>
                         <div class="gallery_box col-4">
-                            <img src="images/dol.jpg">
+                            <img src="images/dol.jpg" height="300" width="300">
                             <h2>Dolomites</h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="gallery_box col-4">
-                            <img src="images/and.jpg">
+                            <img src="images/and.jpg" height="300" width="300">
                             <h2>Andes</h2>
                         </div>
                         <div class="gallery_box col-4">
-                            <img src="images/pir.jpg">
+                            <img src="images/pir.jpg" height="300" width="300">
                             <h2>Pyrenees</h2>
                         </div>
                         <div class="gallery_box col-4">
-                            <img src="images/tat.jpg">
+                            <img src="images/tat.jpg" height="300" width="300">
                             <h2>Carpathians</h2>
                         </div>
                     </div>
@@ -84,28 +89,36 @@
             <div class="container">
                 <h1>Activities</h1>
                 <div class="story_content">
-                    <div class="column">
-                        <div class="story_box">
-                            <img src="images/trek.jpg">
+                    <div class="row">
+                        <div class="story_box col-12">
+                            <img src="images/trek.jpg" height="200" width="200">
                             <h3>Trekking</h3>
                             <p></p>    
                         </div>
-                        <div class="story_box">
-                            <img src="images/cli.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="story_box col-12">
+                            <img src="images/cli.jpg" height="200" width="200">
                             <h3>Climbing</h3>
                             <p></p> 
                         </div>
-                        <div class="story_box">
-                            <img src="images/ski.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="story_box col-12">
+                            <img src="images/ski.jpg" height="200" width="200">
                             <h3>Skiing</h3> 
                             <p></p>    
                         </div>
-                        <div class="story_box">
-                            <img src="images/bik.jpg">
+                    </div>
+                    <div class="row">    
+                        <div class="story_box col-12">
+                            <img src="images/bik.jpg" height="200" width="200">
                             <h3>Biking</h3>
                             <p></p>             
                         </div>
-                        <div class="story_box">
+                    </div>
+                    <div class="row">    
+                        <div class="story_box col-12">
                             <img>
                         </div>
                     </div>   
@@ -118,7 +131,7 @@
                 <div class="people_content">
                     <div class="row">
                         <div class="people_box col-4">
-                            <img src="images/mes.jpg">
+                            <img src="images/mes.jpg" height="300" width="300">
                             <h2>Reinhold Messner</h2>
                             <p></p>
                             <i class="fa fa-twitter"></i>
@@ -126,7 +139,7 @@
 							<i class="fa fa-youtube-square"></i>
                         </div>
                         <div class="people_box col-4">
-                            <img src="images/kur.jpg">
+                            <img src="images/kur.jpg" height="300" width="300">
                             <h2>Wojciech Kurtyka</h2>
                             <p></p>
                             <i class="fa fa-twitter"></i>
@@ -134,7 +147,7 @@
 							<i class="fa fa-instagram"></i>
                         </div>
                         <div class="people_box col-4">
-                            <img src="images/mor.JPG">
+                            <img src="images/mor.jpg" height="300" width="300">
                             <h2>Simone Moro</h2>
                             <p></p>
                             <i class="fa fa-twitter"></i>

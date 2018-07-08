@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Coda');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+$nav_font: 'Coda', cursive;
+$hero_header_font:'Kaushan Script', cursive;
+$black-color: #000;
+$white-color: #FFF;
+$social-color: #31423a;
+$text-color: #313332;
+$icons-color: #B5D60D;
+$hover-color: #f1c40f;
+
+* {
+	box-sizing: border-box;
+}
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+    text-align: center;
+}
+.hero {
+    background-image: url('images/mount.jpeg');
+	background-size: cover;
+    background-position: center;
+    font-family: $nav_font;
+    width: 100%;
+    height: 70vh;
+    .nav {
+        height: 20vh;
+    }
+    .hero_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }
+    .hero_text {
+        text-align: center;
+    }
+    ul {
+        float: right;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        transition: transform .4s;
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+    a {
+        text-decoration: none;
+        transition: transform .4s;
+        color: $white-color;
+        font-size: 20px;
+        padding: 10px;
+        &:hover {
+            color: $hover-color;
+            transform: scale(1.3);
+        }
+    }
+    .trekker {
+        float: left;
+        color: $white-color;
+        font-size: 20px;
+        padding: 15px;
+        &:hover {
+            color: #BF0F06;
+        }
+    }
+    p {
+        color: $white-color;
+        font-size: 50px;
+        font-family: $hero_header_font;
+        margin: 20px;
+        text-shadow: 1px 1px 1px $hover-color;
+    }
+    h3 {
+        color: $white-color;
+        font-family: $hero_header_font;
+        font-size: 40px;
+        margin: 20px;
+        text-shadow: 1px 1px 1px $hover-color;
+    }
+    .hero_btn {
+        font-family: $hero_header_font;
+        font-size: 20px;
+        color: $white-color;
+        background-color: $hover-color;
+        border-radius: 15%;
+        padding: 5px 15px;
+        transition: transform .4s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

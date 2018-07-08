@@ -1,3 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Coda");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+* {
+  box-sizing: border-box; }
 
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center; }
+
+.hero {
+  background-image: url("images/mount.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Coda", cursive;
+  width: 100%;
+  height: 70vh; }
+  .hero .nav {
+    height: 20vh; }
+  .hero .hero_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; }
+  .hero .hero_text {
+    text-align: center; }
+  .hero ul {
+    float: right;
+    list-style-type: none; }
+  .hero li {
+    display: inline-block;
+    transition: transform .4s; }
+    .hero li:hover {
+      transform: scale(1.3); }
+  .hero a {
+    text-decoration: none;
+    transition: transform .4s;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px; }
+    .hero a:hover {
+      color: #f1c40f;
+      transform: scale(1.3); }
+  .hero .trekker {
+    float: left;
+    color: #FFF;
+    font-size: 20px;
+    padding: 15px; }
+    .hero .trekker:hover {
+      color: #BF0F06; }
+  .hero p {
+    color: #FFF;
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #f1c40f; }
+  .hero h3 {
+    color: #FFF;
+    font-family: "Kaushan Script", cursive;
+    font-size: 40px;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #f1c40f; }
+  .hero .hero_btn {
+    font-family: "Kaushan Script", cursive;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #f1c40f;
+    border-radius: 15%;
+    padding: 5px 15px;
+    transition: transform .4s; }
+    .hero .hero_btn:hover {
+      transform: scale(1.2); }
 
 /*# sourceMappingURL=style.css.map */
