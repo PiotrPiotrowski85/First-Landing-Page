@@ -144,3 +144,26 @@ $hover-color: #f1c40f;
         padding: 0 30px;
     }
 }
+.main {
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 35px;
+    }
+    h2 {
+        font-family: $hero_header_font;
+        font-size: 28px;
+        margin: 5px;
+    }
+    p {
+        font-family: $text_font;
+        color: $text-color;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .gallery {
+        margin: 50px 0;
+    }
+    .gallery_row {
+        margin: 40px 0;
+    }
+}
