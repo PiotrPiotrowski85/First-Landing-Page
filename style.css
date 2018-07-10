@@ -56,6 +56,10 @@
   width: 100%;
   text-align: center; }
 
+.major_headers, .header h1, .main h1, .story h1, .people h1, .contact h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px; }
+
 .hero {
   background-image: url("images/mount.jpeg");
   background-size: cover;
@@ -126,9 +130,6 @@
   font-size: 20px; }
   .header .reasons {
     margin-top: 80px; }
-  .header h1 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 50px; }
   .header h2 {
     font-family: "Kaushan Script", cursive;
     font-size: 30px; }
@@ -141,9 +142,6 @@
   .header p {
     padding: 0 30px; }
 
-.main h1 {
-  font-family: "Kaushan Script", cursive;
-  font-size: 50px; }
 .main h2 {
   font-family: "Kaushan Script", cursive;
   font-size: 28px;
@@ -165,8 +163,6 @@
   .story p {
     margin: 10px 20px; }
   .story h1 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 50px;
     margin: 5px; }
   .story h3 {
     font-family: "Kaushan Script", cursive;
@@ -203,8 +199,6 @@
   font-family: "Marvel", sans-serif;
   font-size: 20px; }
   .people h1 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 50px;
     margin: 5px; }
   .people p {
     margin: 5px; }
@@ -239,8 +233,6 @@
   color: #FFF;
   margin-top: 50px; }
   .contact h1 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 50px;
     margin: 5px; }
   .contact p {
     font-family: "Marvel", sans-serif;
