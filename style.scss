@@ -7,9 +7,7 @@ $hero_header_font:'Kaushan Script', cursive;
 $text_font: 'Marvel', sans-serif;
 $black-color: #000;
 $white-color: #FFF;
-$social-color: #31423a;
 $text-color: #313332;
-$icons-color: #B5D60D;
 $hover-color: #f1c40f;
 
 * {
@@ -50,7 +48,7 @@ $hover-color: #f1c40f;
     background-position: center;
     font-family: $nav_font;
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     .hero_nav {
         height: 20vh;
     }
@@ -58,7 +56,7 @@ $hover-color: #f1c40f;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50vh;
+        height: 40vh;
     }
     .hero_text {
         text-align: center;
@@ -131,7 +129,11 @@ $hover-color: #f1c40f;
     }
     h1 {
         font-family: $hero_header_font;
-        font-size: 35px;
+        font-size: 50px;
+    }
+    h2 {
+        font-family: $hero_header_font;
+        font-size: 30px;
     }
     i.fa {
         font-size: 60px;
@@ -147,7 +149,7 @@ $hover-color: #f1c40f;
 .main {
     h1 {
         font-family: $hero_header_font;
-        font-size: 35px;
+        font-size: 50px;
     }
     h2 {
         font-family: $hero_header_font;
@@ -169,23 +171,172 @@ $hover-color: #f1c40f;
 }
 .story {
     margin-top: 100px;
+    font-family: $text_font;
+    font-size: 20px;
+    p {
+        margin: 5px;
+    }
     h1 {
         font-family: $hero_header_font;
-        font-size: 35px; 
+        font-size: 50px;
+        margin: 5px;
     }
-    .story_box {
-        margin-left: auto;
-        margin-right: auto;
+    h3 {
+        font-family: $hero_header_font;
+        font-size: 28px;
     }
-    .story_row {
-        margin: 40px 0;
-        text-align: center;
+    .row {
+        display: inline-flex;
+        margin-bottom: 40px;
     }
-    .activity {
+    .row_first {
+        margin-top: 70px;
+    }
+    .img_box {
+        flex: 1;
+        order: 1;
+    }
+    .text_box_left {
+        flex: 2;
+        order: 0;
+        text-align: right;
+    }
+    .empty_box_left {
+        flex: 2;
+        order: 2;
+    }
+    .text_box_right {
+        flex: 2;
+        order: 2;
+        text-align: left;
+    }
+    .empty_box_right {
+        flex: 2;
+        order: 0;
+    }
+}
+.round_img {
         border-radius: 50%;
-        float: right;
     }
-    .story_text {
-        float: right;
+.people {
+    margin-top: 100px;
+    font-family: $text_font;
+    font-size: 20px;
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 50px;
+        margin: 5px;
+    }
+    p {
+        margin: 5px;
+    }
+    h2 {
+        font-family: $hero_header_font;
+        font-size: 28px;
+        margin: 5px;
+    }
+    .people_content {
+        margin-top: 80px;
+    }
+    i.fa {
+        font-size: 30px;
+        border: 3px solid $black-color;
+        border-radius: 50%;
+        color: $black-color;
+        padding: 10px;
+    }
+    i.fa-facebook {
+        padding: 10px 16px;
+    }
+    i.fa-instagram {
+        padding: 10px 13px;
+    } 
+    i.fa-google-plus {
+        padding: 10px 7px;
+    }
+    i.fa-youtube-square {
+        padding: 10px 12px;
+    }
+    .people_text {
+        margin: 60px;
+    }
+}
+.contact {
+    background-image: url('images/cont.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    color: $white-color;
+    margin-top: 100px;
+    h1 {
+        font-family: $hero_header_font;
+        font-size: 50px;
+        margin: 5px;
+    }
+    p {
+        font-family: $text_font;
+        font-size: 20px;
+    }
+    input[type=text] {
+        width: 95%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    textarea {
+        width: 95%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display:inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .form {
+        font-family: $text_font;
+        font-size: 15px;
+    }
+    .contact_content {
+        margin: 50px;
+        padding-top: 50px;
+    }
+    .btn_submit {
+        background-color: $hover-color;
+        margin: 20px 0;
+        padding: 15px 60px;
+        font-family: $text_font;
+        font-size: 30px;
+        color: $white-color;
+    }
+}
+.footer {  
+        font-family: $text_font;
+        font-size: 20px;
+        height: 30px;
+    .footer_cont {
+        padding: 30px;
+    }
+    i.fa {
+        font-size: 30px;
+        border: 3px solid $black-color;
+        border-radius: 50%;
+        color: $white-color;
+        background-color: $black-color;
+        padding: 10px;
+    }
+    i.fa-facebook {
+        padding: 10px 16px;
+    }
+    i.fa-instagram {
+        padding: 10px 13px;
+    } 
+    i.fa-google-plus {
+        padding: 10px 7px;
+    }
+    i.fa-github {
+        padding: 10px 12px;
     }
 }
