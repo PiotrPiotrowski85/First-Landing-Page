@@ -109,7 +109,7 @@
     margin: 20px;
     text-shadow: 1px 1px 1px #f1c40f; }
   .hero .hero_btn {
-    font-family: "Kaushan Script", cursive;
+    font-family: "Marvel", sans-serif;
     font-size: 20px;
     color: #FFF;
     background-color: #f1c40f;
@@ -163,14 +163,15 @@
   font-family: "Marvel", sans-serif;
   font-size: 20px; }
   .story p {
-    margin: 5px; }
+    margin: 10px 20px; }
   .story h1 {
     font-family: "Kaushan Script", cursive;
     font-size: 50px;
     margin: 5px; }
   .story h3 {
     font-family: "Kaushan Script", cursive;
-    font-size: 28px; }
+    font-size: 28px;
+    margin: 0 20px; }
   .story .row {
     display: inline-flex;
     margin-bottom: 40px; }
@@ -236,7 +237,7 @@
   background-size: cover;
   height: 70vh;
   color: #FFF;
-  margin-top: 100px; }
+  margin-top: 50px; }
   .contact h1 {
     font-family: "Kaushan Script", cursive;
     font-size: 50px;
@@ -246,26 +247,24 @@
     font-size: 20px; }
   .contact input[type=text] {
     width: 95%;
-    padding: 14px 20px;
+    padding: 13px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; }
+    border-radius: 4px; }
   .contact textarea {
     width: 95%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; }
+    border-radius: 4px; }
   .contact .form {
     font-family: "Marvel", sans-serif;
     font-size: 15px; }
-  .contact .contact_content {
-    margin: 50px;
-    padding-top: 50px; }
+  .contact .contact_text {
+    margin: 20px;
+    padding-top: 20px; }
   .contact .btn_submit {
     background-color: #f1c40f;
     margin: 20px 0;
@@ -278,10 +277,10 @@
   font-family: "Marvel", sans-serif;
   font-size: 20px;
   height: 30px; }
-  .footer .footer_cont {
-    padding: 30px; }
+  .footer .foot {
+    padding: 20px; }
   .footer i.fa {
-    font-size: 30px;
+    font-size: 25px;
     border: 3px solid #000;
     border-radius: 50%;
     color: #FFF;
