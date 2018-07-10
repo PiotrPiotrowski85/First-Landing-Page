@@ -195,37 +195,41 @@
         </div>
         <div class="contact">
             <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <form action="/action_page.php">
-                            <input type="text" id="name" name="Name" placeholder="Your name*">
-                            <input type="text" id="email" name="E-mail" placeholder="Your e-mail*">
-                            <input type="text" id="subject" name="Subject" placeholder="Subject">
-                        </form>
-                    </div>
-                    <div class="col-6">
-                        <form action="/action_page.php">
-                            <textarea id="message" name="Message" rows="9" placeholder="Your message*"></textarea>
-                        </form>
-                    </div>
-                </div>
-                <div class="submit">
-                    <button>Submit</button>
-                </div>
                 <div class="contact_content">
                     <h1>Contact Us</h1>
                     <p>Lorem ipsum dolor sit amet dolor. Nullam sed urna. Suspendisse in consequat vel, arcu. Praesent feugiat. Cum sociis natoque penatibus.</p>    
                 </div>    
+                <div class="row row_contact">
+                    <div class="col-6">
+                        <form action="/action_page.php">
+                            <input type="text" class="form" name="Name" placeholder="Your name*">
+                            <input type="text" class="form" name="E-mail" placeholder="Your e-mail*">
+                            <input type="text" class="form" name="Subject" placeholder="Subject">
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <form action="/action_page.php">
+                            <textarea class="form" name="Message" rows="7" placeholder="Your message*"></textarea>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <button  class="btn_submit">Submit</button>
+                </div>
             </div>
         </div>
         <div class="footer">
-            <div class="container">
-                <div class="footer_content">
-                    <p>Copyrights Piotr Piotrowski</p>
-                    <i class="fa fa-facebook"></i>
-					<i class="fa fa-google-plus"></i>
-					<i class="fa fa-instagram"></i>
-					<i class="fa fa-github"></i>
+            <div class="container footer_cont">
+                <div class="row footer_row">
+                    <div class="col-4">
+                        <p>Copyrights Piotr Piotrowski</p>
+                    </div>
+                    <div class="col-4">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-google-plus"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
                 </div>
             </div>            
         </div>
