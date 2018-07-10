@@ -46,6 +46,11 @@ $yellow-color: #f1c40f;
     font-family: $hero_header_font;
     font-size: 50px;
 }
+.text_content {
+    font-family: $text_font;
+    color: $text-color;
+    font-size: 20px;
+}
 .hero {
     background-image: url('images/mount.jpeg');
 	background-size: cover;
@@ -125,9 +130,8 @@ $yellow-color: #f1c40f;
     }
 }
 .header {
+    @extend .text_content;
     margin: 80px;
-    font-family: $text_font; 
-    font-size: 20px;
     .reasons {
         margin-top: 80px;
     }
@@ -159,9 +163,7 @@ $yellow-color: #f1c40f;
         margin: 5px;
     }
     p {
-        font-family: $text_font;
-        color: $text-color;
-        font-size: 20px;
+        @extend .text_content;
         margin: 5px;
     }
     .gallery {
@@ -222,8 +224,7 @@ $yellow-color: #f1c40f;
     }
 .people {
     margin-top: 100px;
-    font-family: $text_font;
-    font-size: 20px;
+    @extend .text_content;
     h1 {
         @extend .major_headers;
         margin: 5px;
@@ -240,7 +241,7 @@ $yellow-color: #f1c40f;
         margin-top: 80px;
     }
     i.fa {
-        font-size: 30px;
+        font-size: 25px;
         border: 3px solid $black-color;
         border-radius: 50%;
         color: $black-color;
@@ -274,8 +275,8 @@ $yellow-color: #f1c40f;
         margin: 5px;
     }
     p {
-        font-family: $text_font;
-        font-size: 20px;
+        @extend .text_content;
+        color: $white-color;
     }
     input[type=text] {
         width: 95%;
@@ -311,8 +312,7 @@ $yellow-color: #f1c40f;
     }
 }
 .footer {  
-        font-family: $text_font;
-        font-size: 20px;
+        @extend .text_content;
         height: 30px;
     .foot {
         padding: 20px;

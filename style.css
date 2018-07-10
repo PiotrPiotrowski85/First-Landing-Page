@@ -60,6 +60,11 @@
   font-family: "Kaushan Script", cursive;
   font-size: 50px; }
 
+.text_content, .header, .main p, .people, .contact p, .footer {
+  font-family: "Marvel", sans-serif;
+  color: #313332;
+  font-size: 20px; }
+
 .hero {
   background-image: url("images/mount.jpeg");
   background-size: cover;
@@ -125,9 +130,7 @@
       background-color: #FFF; }
 
 .header {
-  margin: 80px;
-  font-family: "Marvel", sans-serif;
-  font-size: 20px; }
+  margin: 80px; }
   .header .reasons {
     margin-top: 80px; }
   .header h2 {
@@ -147,9 +150,6 @@
   font-size: 28px;
   margin: 5px; }
 .main p {
-  font-family: "Marvel", sans-serif;
-  color: #313332;
-  font-size: 20px;
   margin: 5px; }
 .main .gallery {
   margin: 50px 0; }
@@ -195,9 +195,7 @@
   border-radius: 50%; }
 
 .people {
-  margin-top: 100px;
-  font-family: "Marvel", sans-serif;
-  font-size: 20px; }
+  margin-top: 100px; }
   .people h1 {
     margin: 5px; }
   .people p {
@@ -209,7 +207,7 @@
   .people .people_content {
     margin-top: 80px; }
   .people i.fa {
-    font-size: 30px;
+    font-size: 25px;
     border: 3px solid #000;
     border-radius: 50%;
     color: #000;
@@ -235,8 +233,7 @@
   .contact h1 {
     margin: 5px; }
   .contact p {
-    font-family: "Marvel", sans-serif;
-    font-size: 20px; }
+    color: #FFF; }
   .contact input[type=text] {
     width: 95%;
     padding: 13px 20px;
@@ -266,8 +263,6 @@
     color: #FFF; }
 
 .footer {
-  font-family: "Marvel", sans-serif;
-  font-size: 20px;
   height: 30px; }
   .footer .foot {
     padding: 20px; }
