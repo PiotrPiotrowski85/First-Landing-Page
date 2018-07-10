@@ -230,4 +230,10 @@
   .people .people_text {
     margin: 60px; }
 
+.contact {
+  background-image: url("images/cont.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh; }
+
 /*# sourceMappingURL=style.css.map */
