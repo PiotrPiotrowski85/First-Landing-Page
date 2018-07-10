@@ -234,6 +234,31 @@
   background-image: url("images/cont.jpeg");
   background-position: center;
   background-size: cover;
-  height: 80vh; }
+  height: 80vh;
+  color: #FFF;
+  margin-top: 100px; }
+  .contact h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 50px;
+    margin: 5px; }
+  .contact p {
+    font-family: "Marvel", sans-serif;
+    font-size: 20px; }
+  .contact input[type=text] {
+    width: 95%;
+    padding: 13px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+  .contact textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
 
 /*# sourceMappingURL=style.css.map */
