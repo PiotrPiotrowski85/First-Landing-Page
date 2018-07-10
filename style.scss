@@ -169,23 +169,43 @@ $hover-color: #f1c40f;
 }
 .story {
     margin-top: 100px;
+    font-family: $text_font;
+    font-size: 20px;
     h1 {
         font-family: $hero_header_font;
-        font-size: 35px; 
+        font-size: 35px;
     }
-    .story_box {
-        margin-left: auto;
-        margin-right: auto;
+    h3 {
+        font-family: $hero_header_font;
+        font-size: 28px;
     }
-    .story_row {
-        margin: 40px 0;
-        text-align: center;
+    .row {
+        display: inline-flex;
+        margin-bottom: 40px;
+    }
+    .img_box {
+        flex: 1;
+        order: 1;
+    }
+    .text_box_left {
+        flex: 2;
+        order: 0;
+        text-align: right;
+    }
+    .empty_box_left {
+        flex: 2;
+        order: 2;
     }
     .activity {
         border-radius: 50%;
-        float: right;
     }
-    .story_text {
-        float: right;
+    .text_box_right {
+        flex: 2;
+        order: 2;
+        text-align: left;
+    }
+    .empty_box_right {
+        flex: 2;
+        order: 0;
     }
 }
